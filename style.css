@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --font-color: #fff;
+  --font-hover-color: #02799D;
+  --nav-font-color: #C4C4CC;
+  
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+}
+
+.home-background {
+  background-image: url(./assets/home.png);
+  background-size: cover;
+ 
+}
+
+.universe-background {
+  background-image: url(./assets/universe.png);
+  background-size: cover;
+}
+
+.exploration-background {
+  background-image: url(./assets/exploration.png);
+  background-size: cover;
+}
+
+
+body {
+  font-size: 1.6rem;
+}
+
+body {
+  color: var(--font-color);
+}
+
+nav {
+  display: flex;
+  gap: 3.3rem;
+  padding: 4rem 7rem;
+
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--nav-font-color);
+  font-size: 2.4rem;
+  transition: all 0.2s ease;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+  color: var(--font-color);
+  font-weight: bold;
+}
+
+.selected {
+  transform: scale(1.1);
+  color: var(--font-color);
+  font-weight: bold;
+}
+
+.home {
+  margin-top: -7rem;
+  display: grid;
+  height: 100vh;
+  place-content: center;
+  color: var(--neutral-colors-white);
+  align-items: center;
+}
+
+main {
+  margin-left: 7.1rem;
+  margin-top: 10rem;
+}
+
+.home-content, .content {
+  margin-left: 7rem;
+}
+
+.content {
+  color: #e1e1e6;
+  max-width: 64.8rem;
+  line-height: 160%;
+  text-align: justify;
+}
+
+.content p {
+  margin-top: 2rem;
+}
+
+.home-content {
+  display: grid;
+  place-items: center;
+
+  margin-top: 15rem;
+}
+
+.btn-more {
+  background: transparent;
+
+  border-radius: 0.5rem;
+  border: 2px solid var(--font-color);
+
+  width: 19.7rem;
+  padding: 1.2rem 3.2rem;
+
+  cursor: pointer;
+
+  margin-top: 2.4rem;
+
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--font-color);
+  text-decoration: none;
+  text-align: center;
+
+  transition: all 0.2s ease;
+}
+
+.btn-more:hover {
+  background: var(--font-color);
+  color: var(--font-hover-color);
+}
+
+.not-found {
+  height: 70vh;
+  display: grid;
+  place-items: center;
+
+  font-size: 3rem;
+  font-weight: 700;
+
+  text-align: center;
+
+  
+}

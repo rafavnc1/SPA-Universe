@@ -9,20 +9,20 @@
   <title>SPA Universe</title>
   
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="./style.css">
+
+  <script src="./src/index.js" type="module" defer></script>
+
 </head>
-<body>
+<body class="home-background">
   <nav>
-    <img src="./assets/logo.svg" alt="Logo do site SPA Universe">
+    <a href="/" id="logo" class="logo"><img src="./assets/logo.svg" alt="Logo do site SPA Universe"></a>
     
-    <a href="/" onclick="route()">Home</a>
-    <a href="/universe" onclick="route()">O Universo</a>
-    <a href="/exploration" onclick="route()">Explorar</a>
+    <a href="/" id="homepage" class="selected" onclick="route()">Home</a>
+    <a href="/universe" id="universePage" onclick="route()">O Universo</a>
+    <a href="/exploration" id="explorationPage" onclick="route()">Explorar</a>
   </nav>
 
   <div id="pages"></div>
-
-  <script src="./src/index.js" type="module"></script>
 </body>
 </html>
