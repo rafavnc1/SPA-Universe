@@ -10,7 +10,7 @@ This project was a responsive page with a grid and animations for the cards and 
 ## Layout
 ![screen1](./assets/homepage.png)
 ![screen2](./assets/universe-page.png)
-![screen3](./assets/exploration=page.png)
+![screen3](./assets/exploration-page.png)
 
 # Tecnologias utilizadas / Tech stack
 - HTML
