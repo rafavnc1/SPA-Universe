@@ -1,5 +1,4 @@
 import { Router } from "./router.js"
-import * as toggleMode from "./toggle-mode.js"
 
 const router = new Router()
 router.add('/', '/pages/home.html')

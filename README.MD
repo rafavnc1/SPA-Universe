@@ -5,7 +5,7 @@
 
 Neste projeto foi criado uma página para aplicar os conceitos de SPA aprendidos durante este módulo.
 
-This project was a responsive page with a grid and animations for the cards and titles
+In this project, a page was created to apply the SPA concepts learned during this module.
 
 ## Layout
 ![screen1](./assets/homepage.png)
